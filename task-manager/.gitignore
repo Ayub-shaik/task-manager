@@ -1,0 +1,32 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# dotenv environment variable files
+.env
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Build directories
+dist/
+build/
+
+# npm package-lock files
+package-lock.json
+yarn.lock
+
+# MongoDB data directory
+mongodb_data/

@@ -1,0 +1,22 @@
+{
+    "name": "task-manager",
+    "version": "1.0.0",
+    "description": "A simple three-tier Task Management System using Node.js, Express, and MongoDB.",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "dev": "nodemon index.js"
+    },
+    "author": "Ayub Shaik",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.20.2",
+      "dotenv": "^16.3.2",
+      "express": "^4.18.2",
+      "mongoose": "^8.1.0"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.1"
+    }
+  }
+  

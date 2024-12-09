@@ -1,0 +1,30 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# dotenv environment variable files
+.env
+
+# Docker-related files
+.docker/
+docker-compose.override.yml
+
+# Build directories
+dist/
+build/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# MongoDB data directory
+mongodb_data/
+
+# Any other files you don't want to copy into the Docker image
